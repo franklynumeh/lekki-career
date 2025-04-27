@@ -13,13 +13,10 @@ import Certifications from "./certifications/Certifications";
 import CountdownTimer from "./components/countDownTimer";
 
 function App() {
+  const { dark } = useContext(GeneralContext);
 
-  const { dark } = useContext(GeneralContext)
-  
   return (
-  
-    <div className={dark ? "app-dark" : "app" }>
-
+    <div className={dark ? "app-dark" : "app"}>
       <Header />
       <main className="main">
         {/* <Home /> */}
@@ -30,10 +27,8 @@ function App() {
         <Testimonial />
         {/* <Qualification /> */}
         <Contact />
-
       </main>
     </div>
- 
   );
 }
 
