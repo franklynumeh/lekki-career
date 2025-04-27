@@ -16,8 +16,14 @@ import { Pagination } from "swiper";
 const Testimonial = () => {
   return (
     <section className="testimonial container section-half" id="testimonial">
-      <h2 className="section__title top" style={{ marginBottom: "1rem" }}>
-        WE ARE HIRING!!!
+      <h2
+        className="section__title top"
+        style={{
+          marginTop: "3rem", // added top margin
+          marginBottom: "1rem",
+        }}
+      >
+        📥 WE ARE HIRING!!! 🧳
       </h2>
 
       {/* <span className="section__subtitle">Click project names to check them out!</span> */}
@@ -53,13 +59,13 @@ const Testimonial = () => {
                 <p className="testimonial__description">
                   We're hiring! Are you a reliable professional in search of an
                   opportunity? Well this is it!
-                  <strong style={{ fontWeight: "bold" }}>
+                  <strong style={{ fontWeight: "bold", color: "#8e5e00" }}>
                     {" "}
                     Saturday May 3rd from 1pm to 3pm
                   </strong>{" "}
-                  we are doing walk-in interviews on premises. (Address is in the picture below) If you're
-                  interested, you may also call the restaurant between those
-                  hours.
+                  we are doing walk-in interviews on premises. (Address is in
+                  the picture below) If you're interested, you may also call the
+                  restaurant between those hours.
                 </p>
                 <div className="image-board">
                   <img src={image} alt="" className="testimonial__img" />

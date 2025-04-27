@@ -42,7 +42,7 @@ const Contact = () => {
 
   return (
     <section className="" id="contact">
-      <h2 className="section__title">Simply call to Apply!</h2>
+      <h2 className="section__title">Simply call us to apply!</h2>
       <span className="section__subtitle"></span>
 
       <div className="contact__container container grid">
@@ -142,7 +142,7 @@ const Contact = () => {
             </div>
 
             <button className="button button--flex center-button">
-              <p>Send Application!</p>
+              <p>Submit</p>
             </button>
           </form>
         </div>

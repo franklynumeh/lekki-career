@@ -33,7 +33,7 @@ const Header = () => {
           Apply
         </a>
         <div href="#qualification" className="new">
-          LEKKI ISLAND CAREERS
+         CAREERS @ LEKKI
         </div>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
